@@ -1,0 +1,10 @@
+html {
+  min-height: 100%;
+  background: #faf8fc;
+  color-scheme: light;
+}
+
+body,
+#root {
+  min-height: 100vh;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&family=Questrial&family=Quicksand:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-family-base: 'Quicksand', 'Segoe UI', sans-serif;
+  --font-family-ui: 'Questrial', 'Segoe UI', sans-serif;
+  --font-family-support: 'Overpass', 'Segoe UI', sans-serif;
+  --font-family-mono: 'Courier New', Courier, monospace;
+
+  --color-oyci-pink: #ec008c;
+  --color-oyci-purple: #91278f;
+  --color-oyci-cyan: #00bdf2;
+  --color-oyci-green: #009344;
+  --color-oyci-dark-green: #006738;
+  --color-oyci-lime: #b5ca4b;
+  --color-oyci-yellow: #f3cb13;
+
+  --color-primary: var(--color-oyci-purple);
+  --color-accent: var(--color-oyci-pink);
+  --color-info: var(--color-oyci-cyan);
+  --color-success: var(--color-oyci-green);
+  --color-warning: var(--color-oyci-yellow);
+
+  --color-text-primary: #1d2433;
+  --color-text-secondary: #495568;
+  --color-text-muted: #66748a;
+  --color-text-inverse: #ffffff;
+
+  --color-surface-canvas: #faf8fc;
+  --color-surface-base: #f5f1fa;
+  --color-surface-panel: #ffffff;
+  --color-surface-sidebar: #f6f0fa;
+  --color-surface-tint: #f9f0f8;
+  --color-surface-raised: #ffffff;
+  --color-surface-strong: #261437;
+
+  --color-border-subtle: #d8d3e3;
+  --color-border-default: #c7bfd6;
+  --color-border-strong: #a18bb8;
+
+  --color-link: #6d1c6a;
+  --color-link-hover: #560f55;
+  --color-focus: var(--color-accent);
+  --color-focus-shadow: rgb(236 0 140 / 24%);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 2rem;
+  --space-8: 2.5rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 0.3rem 0.8rem rgb(26 24 40 / 8%);
+  --shadow-md: 0 0.9rem 2rem rgb(26 24 40 / 10%);
+  --shadow-lg: 0 1.4rem 3rem rgb(26 24 40 / 16%);
+}
